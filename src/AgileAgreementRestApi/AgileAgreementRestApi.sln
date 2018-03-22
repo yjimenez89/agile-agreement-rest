@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgreementWebApi", "AgreementWebApi\AgreementWebApi.csproj", "{63747AAD-55C8-4116-9E80-19BF797C3E30}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{C5A0EFDA-0266-4672-AD3D-4109189BEF2B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{132FB93B-57A0-48A6-A133-B4866D6A2F0B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{A577127F-D4C6-4E72-A48A-45600FB649E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgreementData", "AgreementData\AgreementData.csproj", "{8DB70960-75DD-4EAE-845F-F5D8085322DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63747AAD-55C8-4116-9E80-19BF797C3E30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63747AAD-55C8-4116-9E80-19BF797C3E30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63747AAD-55C8-4116-9E80-19BF797C3E30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63747AAD-55C8-4116-9E80-19BF797C3E30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DB70960-75DD-4EAE-845F-F5D8085322DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DB70960-75DD-4EAE-845F-F5D8085322DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DB70960-75DD-4EAE-845F-F5D8085322DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DB70960-75DD-4EAE-845F-F5D8085322DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{63747AAD-55C8-4116-9E80-19BF797C3E30} = {132FB93B-57A0-48A6-A133-B4866D6A2F0B}
+		{8DB70960-75DD-4EAE-845F-F5D8085322DC} = {A577127F-D4C6-4E72-A48A-45600FB649E2}
+	EndGlobalSection
+EndGlobal
